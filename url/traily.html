@@ -70,6 +70,50 @@
             </ul>
         </div>
     </nav>
+    <style>
+        .fullscreen {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 999;
+          object-fit: contain;
+          cursor: zoom-out;
+        }
+  
+        .fullscreen:hover {
+          cursor: zoom-in;
+        }
+  
+        .fullscreen:active {
+          cursor: -webkit-zoom-in;
+        }
+  
+        .fullscreen:-webkit-full-screen {
+          width: 100vw;
+          height: 100vh;
+          object-fit: contain;
+        }
+  
+        .fullscreen:-moz-full-screen {
+          width: 100vw;
+          height: 100vh;
+          object-fit: contain;
+        }
+  
+        .fullscreen:-ms-fullscreen {
+          width: 100vw;
+          height: 100vh;
+          object-fit: contain;
+        }
+  
+        .fullscreen:fullscreen {
+          width: 100vw;
+          height: 100vh;
+          object-fit: contain;
+        }
+      </style>
 
 
     <div class="row">
@@ -117,30 +161,16 @@
                                 <!-- <div class="row"> -->
 
                                 <p class="card-text">
-                                <h3>Co to vlastně pumptrack je?</h3> Jde o uzavřený okruh tvořený řadou vln a klopených
-                                zatáček. Jezdí se na něm bez šlapání, pro udržení rychlosti se využívá změna těžiště
-                                těla, podobně jako třeba na houpačce. Jezdci si na něm zdokonalují své dovednosti,
-                                přitom se jedná o bezpečnou zábavu. Vhodný je pro sportovce bez rozdílu věku. I
-                                začátečník brzy zjistí, jak pumptrack funguje a že se jedná o velmi zábavnou aktivitu.
-
-                                Pumptracková dráha se měla v Hrádku budovat už v loňském roce. „Původně jsme na tuto
-                                aktivitu měli zajištěné financování z tzv. Fondu malých projektů. Ten má ale svůj limit
-                                pro celkový rozpočet stavby, za který by nebylo možné postavit dráhu odpovídající
-                                současným parametrům. Dotace jsme se nakonec vzdali a nechali navrhnout pumptrack tak,
-                                jak má být, abychom se za něj nemuseli stydět, a to v celkovém rozpočtu cca 2,5 mil. vč.
-                                DPH.
-
-                                Zhotovitelem stavby je zkušená firma DirtyParks Jičín, která už má za sebou desítky
-                                podobných staveb napříč naší republikou,“</p>
+                                <h3>charakteristika trailu</h3> Trail se nachází u oblíbeného místa pro turisty a to skály Popova skála. Trail není nijak schovaný a dá se splést i s cestou, po pár metrech však přes náročnost terénu a sjezdu zjistíte že se o cestu nejedná. Trail je ze začátku jednoduššího charakteru, je hlavně třeba dávat pozor na sráz ketrý je 20 metrů vysoký. Trail pak končí 2 konci, oba mají náročné technické prvky. Jeden je 5 metrový drop s krátkým dopadem, druhý má prudký sjezd po kameni zakončný ostrou hranou a ještě ostřejší zatáčkou. Obojí se dá už i objet ale není to pak taková zábava ani výzva. Traily pak vajedou na cestě mířící na Popovu skálu</p>
                                 <h3>možné cesty</h3>
                                 <div class="container">
                                     <div class="row justify-content-evenly ">
                                 
                                         <div class="col-sm-12 col-md-6 col-lg-4 ">
                                             <div class="card" style="width: 18rem;">
-                                                <img src="./assets/images/XC skier.png" class="card-img-top" alt="...">
+                                                <img src="../imgs/traily/popovka/zacatek.jpg" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                    <h5 class="card-title">Proč mám rád boootstrap?</h5>
+                                                    <h5 class="card-title">Začátek</h5>
                                                     <p class="card-text">Sice jsem si myslel, že Bootstrap je nejrychlejší cesta do pekel, po nějaké
                                                         době jsme si k němu našel cestu.</p>
                                                     <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -150,24 +180,22 @@
                                 
                                         <div class="col-sm-12 col-md-6 col-lg-4">
                                             <div class="card" style="width: 18rem;">
-                                                <img src="..." class="card-img-top" alt="...">
+                                                <img src="../imgs/traily/popovka/stary.jpg" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                    <h5 class="card-title">Proč mám rá boootstrap?</h5>
-                                                    <p class="card-text">Sice jsem si myslel, že Bootstrap je nejrychlejší cesta do pekel, po nějaké
-                                                        době jsme si k němu našel cestu.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    <h5 class="card-title">starý konec</h5>
+                                                    <p class="card-text">na rozcestí cestou doprava</p>
+                                                    <a href="#" class="btn btn-primary">Strava</a>
                                                 </div>
                                             </div>
                                         </div>
                                 
                                         <div class="col-sm-12 col-md-6 col-lg-4">
                                             <div class="card" style="width: 18rem;">
-                                                <img src="..." class="card-img-top" alt="...">
+                                                <img src="../imgs/traily/popovka/novy.jpg" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                    <h5 class="card-title">Proč mám rá boootstrap?</h5>
-                                                    <p class="card-text">Sice jsem si myslel, že Bootstrap je nejrychlejší cesta do pekel, po nějaké
-                                                        době jsme si k němu našel cestu.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    <h5 class="card-title">nový konec</h5>
+                                                    <p class="card-text">na rozcestí cestou doleva</p>
+                                                    <a href="#" class="btn btn-primary">strava</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -233,10 +261,7 @@
                                 <!-- <div class="row"> -->
 
                                 <p class="card-text">
-                                <h3>Co to vlastně pumptrack je?</h3> hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-                                hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-                                hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-                                hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+                                <h3>Krátká charakteristika</h3>Trail se nachází u oblíbeného místa pro turisty a to skály Popova skála. Trail není nijak schovaný a dá se splést i s cestou, po pár metrech však přes náročnost terénu a sjezdu zjistíte že se o cestu nejedná. Trail je ze začátku jednoduššího charakteru, je hlavně třeba dávat pozor na sráz ketrý je 20 metrů vysoký. Trail pak končí 2 konci, oba mají náročné technické prvky. Jeden je 5 metrový drop s krátkým dopadem, druhý má prudký sjezd po kameni zakončný ostrou hranou a ještě ostřejší zatáčkou. Obojí se dá už i objet ale není to pak taková zábava ani výzva. Traily pak vajedou na cestě mířící na Popovu skálu</p>
                                 <h3>Něco o trailu</h3>
                                 <ul class="list-unstyled">
                                     <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -315,32 +340,6 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
