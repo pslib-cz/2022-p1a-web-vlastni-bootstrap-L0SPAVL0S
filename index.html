@@ -25,6 +25,10 @@
 </head>
 
 <body>
+    <style>
+    .navbar-nav .nav-item:first-child {
+        margin-right: 10px;
+    }</style>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Hrádek na kole</a>
@@ -40,36 +44,44 @@
                         místa na ježdění
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-                        <a class="dropdown-item" href="./spots.html#pumptrack">Pumptrack</a>
-                        <a class="dropdown-item" href="./spots.html#xc">XC Trail cihelna</a>
-                        <a class="dropdown-item" href="#">Something else here 1</a>
+                        <a class="dropdown-item" href="./kolo/spots.html#pumptrack">Pumptrack</a>
+                        <a class="dropdown-item" href="./kolo/spots.html#xc">XC Trail cihelna</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown 2
+                        traily
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                        <a class="dropdown-item" href="#">Action 2</a>
-                        <a class="dropdown-item" href="#">Another action 2</a>
-                        <a class="dropdown-item" href="#">Something else here 2</a>
+                        <a class="dropdown-item" href="./kolo/traily.html#popovka">Popovka</a>
+                        <a class="dropdown-item" href="./kolo/traily.html#kohoutak">Kohouťák</a>
+                        <a class="dropdown-item" href="./kolo/spots.html#xc">xc cihelna</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown 3
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="./devodkaz/contact.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                        </svg>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                        <a class="dropdown-item" href="#">Action 3</a>
-                        <a class="dropdown-item" href="#">Another action 3</a>
-                        <a class="dropdown-item" href="#">Something else here 3</a>
-                    </div>
+                    
+                </li>
+                <li class="nav-item">
+                    <a href="./devodkaz/registration.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                          </svg>
+                    </a>
                 </li>
             </ul>
         </div>
     </nav>
+    
+      
+      
     <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -81,7 +93,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <a href="image1.html"><img class="d-block w-100"
-                            src="https://via.placeholder.com/800x400?text=Image+1" alt="First slide"></a>
+                            src="../imgs/traily/popovka/mapa/novy.jpg" alt="First slide"></a>
                 </div>
                 <div class="carousel-item">
                     <a href="image2.html"><img class="d-block w-100"
@@ -119,31 +131,34 @@
                         <div class="row no-gutters">
                             <div class="col-md-4">
                                 <img src="https://via.placeholder.com/300x200?text=Recommendation+1+image"
-                                    alt="Recommendation 1 image" class="img-fluid">
+                                    alt="Recommendation 1 image" class="img-fluid" width="100%">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    
+
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                                         suscipit, lorem vel
                                         mattis molestie, sapien tortor ultricies neque, ac varius orci ex eu arcu.
                                         Maecenas eget velit quis
                                         turpis malesuada tempus.</p>
-                                    <button type="button"
-                                        class="btn btn-sm btn-outline-primary float-right">zjistit více o trailu</button>
+                                        <br></br>
+                                        <div align="center">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">zjistit
+                                        více o trailu</button></div>
+                                        <br></br>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
 
 
 
 
 
-
+        <section>
             <h2>Novinky</h2>
 
             <div class="accordion" id="novinkyAccordion">
@@ -151,7 +166,7 @@
                     <div class="card-header" id="headingOne">
                         <h3 class="mb-0">
                             Cedule státních hranic na trailu
-                            <button type="button" class="btn btn-sm btn-outline-secondary float-right"
+                            <button type="button" class="btn btn-sm btn-outline-secondary float-right "
                                 data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
                                 aria-controls="collapseOne">více</button>
                         </h3>
@@ -161,7 +176,7 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <img src="https://via.placeholder.com/300x200?text=News+1+image" alt="News 1 image"
-                                        class="img-fluid">
+                                        width="100%" class="img-fluid">
                                 </div>
                                 <div class="col-md-8">
                                     <p>Při cestě z trailu pod Kohouťákem byl po levé straně menší asi 50 metrový trail.
@@ -191,7 +206,7 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <img src="https://via.placeholder.com/300x200?text=News+2+image" alt="News 2 image"
-                                        class="img-fluid">
+                                        width="100%" class="img-fluid">
                                 </div>
                                 <div class="col-md-8">
                                     <p>Na začátku trailu pod Kohoutím vrchem se začíná náročnou rock garden kde jsou
@@ -220,7 +235,7 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <img src="https://via.placeholder.com/300x200?text=News+3+image" alt="News 3 image"
-                                        class="img-fluid">
+                                        width="100%" class="img-fluid">
                                 </div>
                                 <div class="col-md-8">
                                     <p>Na Popově skále, nejvyšším bodu Hrádku nad Nisou, roztál taky sníh a není zde po
@@ -234,32 +249,18 @@
 
                 </div>
             </div>
-        </div>
     </div>
+    </div>
+    </section>
 
     </div>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-            </a>
-            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
-        </div>
-
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-                        <use xlink:href="#twitter"></use>
-                    </svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-                        <use xlink:href="#instagram"></use>
-                    </svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-                        <use xlink:href="#facebook"></use>
-                    </svg></a></li>
-        </ul>
-    </footer>
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="text-muted">© 2021 Company, Inc</span>
+        </div>   </footer>
 </body>
 
 </html>
