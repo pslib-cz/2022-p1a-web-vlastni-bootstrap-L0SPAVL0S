@@ -10,7 +10,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 ### HTML a struktura souborů
 
 * [x] Alespoň 3 vzájemně prolinkované stránky nebo jedna singlepage s odkazy na své sekce
-* [ ] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
+* [1-error] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
 * [ ] HTML značky dávají smysl, kód obsahuje ``<article>``, ``<section>``, ``<header>``, ``<nav>``.
 * [x] Navigace mezi stránkami je tvořená přes ``<nav><ul><li><a>`` a je funkční i po zkopírování na lokální disk
 * [x] Soubory webu jsou členěny do složek (např. ``/assets/images``, ``/assets/icons``)
