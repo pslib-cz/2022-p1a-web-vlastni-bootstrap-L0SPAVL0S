@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="../bootstrap.css">
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -27,7 +27,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Hrádek na kole</a>
+        <a class="navbar-brand" href="../index.html">Hrádek na kole</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,32 +40,37 @@
                         místa na ježdění
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-                        <a class="dropdown-item" href="./spots.html#pumptrack">Pumptrack</a>
-                        <a class="dropdown-item" href="./spots.html#xc">XC Trail cihelna</a>
-                        <a class="dropdown-item" href="#">Something else here 1</a>
+                        <a class="dropdown-item" href="../kolo/spots.html#pumptrack">Pumptrack</a>
+                        <a class="dropdown-item" href="../kolo/spots.html#xc">XC Trail cihelna</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown 2
+                        traily
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                        <a class="dropdown-item" href="#">Action 2</a>
-                        <a class="dropdown-item" href="#">Another action 2</a>
-                        <a class="dropdown-item" href="#">Something else here 2</a>
+                        <a class="dropdown-item" href="../kolo/traily.html#popovka">Popovka</a>
+                        <a class="dropdown-item" href="../kolo/traily.html#kohoutak">Kohouťák</a>
+                        <a class="dropdown-item" href="../kolo/spots.html#xc">XC Trail cihelna</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown 3
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="../devodkaz/contact.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                        </svg>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                        <a class="dropdown-item" href="#">Action 3</a>
-                        <a class="dropdown-item" href="#">Another action 3</a>
-                        <a class="dropdown-item" href="#">Something else here 3</a>
-                    </div>
+                    
+                </li>
+                <li class="nav-item">
+                    <a href="../devodkaz/registration.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                          </svg>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -73,12 +78,39 @@
     
 
 
-    <div class="row">
+    <style>
+        .p-5.text-center.bg-image {
+            background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+            background-size: cover;
+            height: 200px;
+        }
+    </style>
+<header>
+    <style>
+        .p-5.text-center.bg-image {
+            background-image: url('../imgs/traily/traily_header.jpg');
+            background-size: cover;
+            height: 260px;
+        }
+    </style>
 
-        <img class="d-block w-100" src="https://via.placeholder.com/800x400?text=Image+1" alt="First slide">
+    <div class="p-5 text-center bg-image" style="
+      background-image: url('../imgs/traily/traily_header.jpg');
+      height: 260px;
 
-
+    ">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h1 class="mb-3">Traily</h1>
+                    <h4 class="mb-2">Úzká cesta bez odboček, nachází se zde různé překážky. Cesta je určena výhradně pro kolo</h4>
+                    <h4 class="mb-3">Popovka a Kohouťák</h4>
+                </div>
+            </div>
+        </div>
     </div>
+
+</header>
 
 
 
@@ -104,13 +136,12 @@
                 <div class="row" id="popovka">
 
                     <div class="col-16">
-                        <h1 class="card-title">Trail "Popovka"</h1>
+                        <h1 class="card-title">Trail "POPOVKA"</h1>
                         <div class="card h-0 border-0 shadow">
                             <div class="card-img-top">
                                 <div class="embed-responsive embed-responsive-4by3">
                                     <div class="embed-responsive-item">
-                                        <img src="https://via.placeholder.com/300x200?text=Recommendation+1+image"
-                                            alt="" class="img-fluid w-100" />
+                                        <img src="../imgs/traily/popovka/popovka_main.jpg"alt="" class="img-fluid w-100" />
                                     </div>
                                 </div>
                             </div>
@@ -120,6 +151,31 @@
                                 <p class="card-text">
                                 <h3>charakteristika trailu</h3> Trail se nachází u oblíbeného místa pro turisty a to skály Popova skála. Trail není nijak schovaný a dá se splést i s cestou, po pár metrech však přes náročnost terénu a sjezdu zjistíte že se o cestu nejedná. Trail je ze začátku jednoduššího charakteru, je hlavně třeba dávat pozor na sráz ketrý je 20 metrů vysoký. Trail pak končí 2 konci, oba mají náročné technické prvky. Jeden je 5 metrový drop s krátkým dopadem, druhý má prudký sjezd po kameni zakončný ostrou hranou a ještě ostřejší zatáčkou. Obojí se dá už i objet ale není to pak taková zábava ani výzva. Traily pak vajedou na cestě mířící na Popovu skálu</p>
                                 <h3>možné cesty</h3>
+                                
+                                <style>
+                                  
+                                  .card {
+                                    position: relative;
+                                    /* width: 300px;
+                                    height: 400px;
+                                    margin: 0 20px; */
+                                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+                                    transition: transform 0.5s ease-in-out;
+                                  }
+                                  
+                                  .card:hover {
+                                    transform: translateY(-20px);
+                                  }
+                                  
+                                  
+                                  
+                                  .card-body {
+                                    padding: 20px;
+                                  }
+                                  
+                                  
+                                  </style>
+
                                 <div class="container">
                                     <div class="row justify-content-evenly ">
                                 
@@ -136,7 +192,7 @@
                                 
                                         <div class="col-sm-12 col-md-6 col-lg-4">
                                             <div class="card" style="width: 18rem;">
-                                                <img src="../imgs/traily/popovka/mapa/novy.jpg" class="card-img-top" alt="...">
+                                                <img src="../imgs/traily/popovka/mapa/stary.jpg" class="card-img-top" alt="...">
                                                 <div class="card-body">
                                                     <h5 class="card-title">starý konec</h5>
                                                     <p class="card-text">na rozcestí (černá tečka s bílou) cestou doprava. Nachází se zde serpentýnky s 5 metrovým dropem na konci (bílá tečka)</p>
@@ -171,94 +227,34 @@
                 <div class="row" id="kohoutak">
 
                     <div class="col-16">
-                        <h1 class="card-title">XC TRAIL CIHELNA</h1>
+                        <h1 class="card-title">Trail KOHOUŤÁK</h1>
                         <div class="card h-0 border-0 shadow">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <a href="image1.html"><img class="d-block w-100"
-                                                src="https://via.placeholder.com/800x400?text=Image+1"
-                                                alt="First slide"></a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="image2.html"><img class="d-block w-100"
-                                                src="https://via.placeholder.com/800x400?text=Image+2"
-                                                alt="Second slide"></a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="image3.html"><img class="d-block w-100"
-                                                src="https://via.placeholder.com/800x400?text=Image+3"
-                                                alt="Third slide"></a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="image4.html"><img class="d-block w-100"
-                                                src="https://via.placeholder.com/800x400?text=Image+4"
-                                                alt="Fourth slide"></a>
-                                    </div>
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <div class="embed-responsive-item">
+                                    <img src="../imgs/traily/kohoutak/kohoutak_main.jpg"alt="" class="img-fluid w-100" />
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                    data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                    data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
                             </div>
                             <div class="card-body">
                                 <!-- <div class="row"> -->
 
                                 <p class="card-text">
-                                <h3>Krátká charakteristika</h3>Trail se nachází u oblíbeného místa pro turisty a to skály Popova skála. Trail není nijak schovaný a dá se splést i s cestou, po pár metrech však přes náročnost terénu a sjezdu zjistíte že se o cestu nejedná. Trail je ze začátku jednoduššího charakteru, je hlavně třeba dávat pozor na sráz ketrý je 20 metrů vysoký. Trail pak končí 2 konci, oba mají náročné technické prvky. Jeden je 5 metrový drop s krátkým dopadem, druhý má prudký sjezd po kameni zakončný ostrou hranou a ještě ostřejší zatáčkou. Obojí se dá už i objet ale není to pak taková zábava ani výzva. Traily pak vajedou na cestě mířící na Popovu skálu</p>
-                                <h3>Něco o trailu</h3>
-                                <ul class="list-unstyled">
-                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-brightness-low-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8.5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707zM3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707z" />
-                                        </svg><i class="glyphicon glyphicon-ok"></i> typ trailu: XC</li>
-                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-brightness-low-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8.5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707zM3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707z" />
-                                        </svg><i class="glyphicon glyphicon-ok"></i> vhodný typ kola: XC, Trailové</li>
-                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-brightness-low-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8.5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707zM3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707z" />
-                                        </svg><i class="glyphicon glyphicon-ok"></i> náročnost: lehké, těžké části možno
-                                        objet</li>
-                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-brightness-low-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8.5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707zM3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707z" />
-                                        </svg><i class="glyphicon glyphicon-ok"></i> délka: 960 metrů</li>
-                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-brightness-low-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8.5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707zM3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707z" />
-                                        </svg><i class="glyphicon glyphicon-ok"></i> 8 pumpovacích boulí</li>
-
-
-                                </ul>
+                                <h3>Krátká charakteristika</h3>Trail se nachází kousek od Popovy skály, a to na drouhou stranu na rozcestí na Popovu skálu, Kohoutí vrch, Německo a Hrádek nad Nisou. Kousek pod ním bývala restaurace Pod Kohoutím vrchem která byla místem pašeráků a za 2 světové válka stržena, dnes tam jsou jen základy a studánka. Samotný trail není zas nijak schovaný a najít ho je opět jednoduché protože začíná hned na Kohoutím vrchu a to rock garden. Tahle je nejtěžsí svého typu v hrádku a sjet jí vyžaduje zkušenosti. Dá se ale pohldně objet po lesní cestě. Samotný trail dále zkušenosti vyžaduje i tak ale není už tak těžký. Nachází se zde dále drop a skok na kterém můžete letět 8 metrů. Obojí se dají ale objet. Trail je celý enduro jak má být a celoodpružené kolo by se hodilo. Dá se sjet ale i v pohodě na hardtailu, jen to třese víc.</p>
+                                
+                                
                             </div>
+                            
                         </div>
+                        
                     </div>
+                    
+                </div>
+                <div class="container">
+                    <img src="../imgs/traily/mapa.png" alt="" class="img-fluid w-100" />
                 </div>
         </div>
 
 
-        <div class="container">
-            <img src="https://via.placeholder.com/300x200?text=Recommendation+1+image" alt="" class="img-fluid w-100" />
-        </div>
+        
         </section>
 
     </div>
@@ -269,7 +265,7 @@
 
 
 
-
+</body>
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
@@ -293,51 +289,5 @@
                     </svg></a></li>
         </ul>
     </footer>
-</body>
 
 </html>
-
-
-
-
-<div class="container">
-    <div class="row justify-content-evenly ">
-
-        <div class="col-sm-12 col-md-6 col-lg-4 ">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/images/XC skier.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Proč mám rád boootstrap?</h5>
-                    <p class="card-text">Sice jsem si myslel, že Bootstrap je nejrychlejší cesta do pekel, po nějaké
-                        době jsme si k němu našel cestu.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Proč mám rá boootstrap?</h5>
-                    <p class="card-text">Sice jsem si myslel, že Bootstrap je nejrychlejší cesta do pekel, po nějaké
-                        době jsme si k němu našel cestu.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Proč mám rá boootstrap?</h5>
-                    <p class="card-text">Sice jsem si myslel, že Bootstrap je nejrychlejší cesta do pekel, po nějaké
-                        době jsme si k němu našel cestu.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+<link rel="stylesheet" href="./bootstrap.css">
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -31,7 +33,7 @@
     }</style>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Hrádek na kole</a>
+        <a class="navbar-brand" href="./index.html">Hrádek na kole</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -56,7 +58,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
                         <a class="dropdown-item" href="./kolo/traily.html#popovka">Popovka</a>
                         <a class="dropdown-item" href="./kolo/traily.html#kohoutak">Kohouťák</a>
-                        <a class="dropdown-item" href="./kolo/spots.html#xc">xc cihelna</a>
+                        <a class="dropdown-item" href="./kolo/spots.html#xc">XC Trail cihelna</a>
                     </div>
                 </li>
             </ul>
@@ -91,21 +93,22 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
+                
                 <div class="carousel-item active">
-                    <a href="image1.html"><img class="d-block w-100"
-                            src="../imgs/traily/popovka/mapa/novy.jpg" alt="First slide"></a>
+                    <a href="./kolo/traily.html#kohoutak"><img class="d-block w-100"
+                            src="./imgs/traily/kohoutak/kohoutak_main.jpg" alt="First slide"></a>
                 </div>
                 <div class="carousel-item">
-                    <a href="image2.html"><img class="d-block w-100"
-                            src="https://via.placeholder.com/800x400?text=Image+2" alt="Second slide"></a>
+                    <a href="./kolo/traily.html#popovka"><img class="d-block w-100"
+                            src="./imgs/traily/popovka/popovka_main.jpg" alt="Second slide"></a>
                 </div>
                 <div class="carousel-item">
-                    <a href="image3.html"><img class="d-block w-100"
-                            src="https://via.placeholder.com/800x400?text=Image+3" alt="Third slide"></a>
+                    <a href="./kolo/spots.html#xc"><img class="d-block w-100"
+                            src="./imgs/spoty/xc/dropik.png" alt="Third slide"></a>
                 </div>
                 <div class="carousel-item">
-                    <a href="image4.html"><img class="d-block w-100"
-                            src="https://via.placeholder.com/800x400?text=Image+4" alt="Fourth slide"></a>
+                    <a href="./kolo/spots.html#pumptrack"><img class="d-block w-100"
+                            src="./imgs/spoty/pumptrack.jpg" alt="Fourth slide"></a>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -125,27 +128,19 @@
 
         <div class="container">
             <div class="row">
-                <h2 class="card-title">Dnešní doporučení</h2>
+                <h2 class="card-title">Doporučení trasy</h2>
                 <div class="col-md-16">
                     <div class="card mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="https://via.placeholder.com/300x200?text=Recommendation+1+image"
+                                <img src="./imgs/trasa.png"
                                     alt="Recommendation 1 image" class="img-fluid" width="100%">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
 
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                        suscipit, lorem vel
-                                        mattis molestie, sapien tortor ultricies neque, ac varius orci ex eu arcu.
-                                        Maecenas eget velit quis
-                                        turpis malesuada tempus.</p>
-                                        <br></br>
-                                        <div align="center">
-                                    <button type="button" class="btn btn-sm btn-outline-primary">zjistit
-                                        více o trailu</button></div>
-                                        <br></br>
+                                    <p class="card-text">Doporučujeme vám vyšlapat si přes dolní sedlo cestu na popovu skálu, tam si dát pak trail Popovka a vyjet dole na cestě. Když zatočíte doprava dostanete se zpátky na rozcestí a tentokrát zabočíte na Kohoutí vrch a zde si sjedete další trail. Po sjezdu přejedete do Německa a když pojedete furt po cestě dojedete na lehký flow trail pod Cikánským koutem a vyjedete u hranic na asfaltové cestě a zde se můžete rozhodovat dál. </p>
+                                        
                                 </div>
                             </div>
                         </div>
@@ -174,11 +169,11 @@
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#novinkyAccordion">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-4">
+                                <!-- <div class="col-md-4">
                                     <img src="https://via.placeholder.com/300x200?text=News+1+image" alt="News 1 image"
                                         width="100%" class="img-fluid">
-                                </div>
-                                <div class="col-md-8">
+                                </div> -->
+                                <div class="col-md-12">
                                     <p>Při cestě z trailu pod Kohouťákem byl po levé straně menší asi 50 metrový trail.
                                         Tenhle trail se napojoval na stranu Německa a dala se tak zkrátit cesta na jiný
                                         trail nebo si zpetřit cestu a projet jím. Na tenhle trail se majíždělo ve vyšší
@@ -204,10 +199,7 @@
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#novinkyAccordion">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-4">
-                                    <img src="https://via.placeholder.com/300x200?text=News+2+image" alt="News 2 image"
-                                        width="100%" class="img-fluid">
-                                </div>
+                                
                                 <div class="col-md-8">
                                     <p>Na začátku trailu pod Kohoutím vrchem se začíná náročnou rock garden kde jsou
                                         zkušenosti potřeba. Kdo se jí ale bál, nevěřil si nebo nejezdil dost aby jí sjet
@@ -233,11 +225,8 @@
                         data-parent="#novinkyAccordion">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-4">
-                                    <img src="https://via.placeholder.com/300x200?text=News+3+image" alt="News 3 image"
-                                        width="100%" class="img-fluid">
-                                </div>
-                                <div class="col-md-8">
+                                
+                                <div class="col-md-12">
                                     <p>Na Popově skále, nejvyšším bodu Hrádku nad Nisou, roztál taky sníh a není zde po
                                         něm ani památky. Díky vyšším teplotám a neustále svítícímu Slunci sníh stihl
                                         roztát a vysušit se i z půdy. Na Popovce je teď za posledních několik měsíců

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-
+        <link rel="stylesheet" href="../bootstrap.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -27,7 +27,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Hrádek na kole</a>
+        <a class="navbar-brand" href="../index.html">Hrádek na kole</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,44 +40,69 @@
                         místa na ježdění
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-                        <a class="dropdown-item" href="./spots.html#pumptrack">Pumptrack</a>
-                        <a class="dropdown-item" href="./spots.html#xc">XC Trail cihelna</a>
-                        <a class="dropdown-item" href="#">Something else here 1</a>
+                        <a class="dropdown-item" href="../kolo/spots.html#pumptrack">Pumptrack</a>
+                        <a class="dropdown-item" href="../kolo/spots.html#xc">XC Trail cihelna</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown 2
+                        traily
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                        <a class="dropdown-item" href="#">Action 2</a>
-                        <a class="dropdown-item" href="#">Another action 2</a>
-                        <a class="dropdown-item" href="#">Something else here 2</a>
+                        <a class="dropdown-item" href="../kolo/traily.html#popovka">Popovka</a>
+                        <a class="dropdown-item" href="../kolo/traily.html#kohoutak">Kohouťák</a>
+                        <a class="dropdown-item" href="../kolo/spots.html#xc">XC Trail cihelna</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown 3
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="../devodkaz/contact.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                        </svg>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                        <a class="dropdown-item" href="#">Action 3</a>
-                        <a class="dropdown-item" href="#">Another action 3</a>
-                        <a class="dropdown-item" href="#">Something else here 3</a>
-                    </div>
+                    
+                </li>
+                <li class="nav-item">
+                    <a href="../devodkaz/registration.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                          </svg>
+                    </a>
                 </li>
             </ul>
         </div>
     </nav>
 
 
-    <div class="row">
-
-        <img class="d-block w-100" src="https://via.placeholder.com/800x400?text=Image+1" alt="First slide">
-
-
-    </div>
+    <header>
+        <style>
+            .p-5.text-center.bg-image {
+                background-image: url('../imgs/spoty/bg.png');
+                background-size: cover;
+                height: 260px;
+            }
+        </style>
+    
+        <div class="p-5 text-center bg-image" style="
+          background-image: url('../imgs/spoty/bg.png');
+          height: 260px;
+    
+        ">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                        <h1 class="mb-3">SPOTY</h1>
+                        <h4 class="mb-2">Místa kde se dá jezdit a nemusí se opouštět, je zde zázemí a vždy se vrátíte tam kde jste najeli</h4>
+                        <h4 class="mb-3">Pumptrack, XC Trail cihelna</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </header>
 
 
 
@@ -108,7 +133,7 @@
                             <div class="card-img-top">
                                 <div class="embed-responsive embed-responsive-4by3">
                                     <div class="embed-responsive-item">
-                                        <img src="https://via.placeholder.com/300x200?text=Recommendation+1+image"
+                                        <img src="../imgs/spoty/pumptrack.jpg"
                                             alt="" class="img-fluid w-100" />
                                     </div>
                                 </div>
@@ -175,29 +200,25 @@
                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <a href="image1.html"><img class="d-block w-100"
-                                                src="https://via.placeholder.com/800x400?text=Image+1"
+                                                src="../imgs/spoty/xc/dropik.png"
                                                 alt="First slide"></a>
                                     </div>
                                     <div class="carousel-item">
                                         <a href="image2.html"><img class="d-block w-100"
-                                                src="https://via.placeholder.com/800x400?text=Image+2"
+                                                src="../imgs/spoty/xc/radfahren.png"
                                                 alt="Second slide"></a>
                                     </div>
                                     <div class="carousel-item">
                                         <a href="image3.html"><img class="d-block w-100"
-                                                src="https://via.placeholder.com/800x400?text=Image+3"
+                                                src="../imgs/spoty/xc/trailmap.png"
                                                 alt="Third slide"></a>
                                     </div>
-                                    <div class="carousel-item">
-                                        <a href="image4.html"><img class="d-block w-100"
-                                                src="https://via.placeholder.com/800x400?text=Image+4"
-                                                alt="Fourth slide"></a>
-                                    </div>
+                                    
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
                                     data-slide="prev">
@@ -214,10 +235,7 @@
                                 <!-- <div class="row"> -->
 
                                 <p class="card-text">
-                                <h3>Co to vlastně pumptrack je?</h3> hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-                                hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-                                hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-                                hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+                                <h3>Charakteristika trailu</h3>Trail má nájezd hned vedle pumptracku. Není nijak náročný a na trailu budete spíš šlapat naž se vozit dolů, je to taky typu xc. Najdou se zde i části kde jezdíte dolu a zaměřujete se na techniku. Tyhle části jsou těžší a každý je nemusí sjet i když jsou jednoduché. Dají se ale objet a vyhnout se jim. Kdo na ně však najede tak si užije i rock garden která je dobře postavená a není se čeho bát. Můžete zde skočit i na sjezdu s prudkou hranou kterou najdete i na fotkách nahoře. Dají se zde udělat i nějaké triky a sjezdová část je zábavná. Koho by bavily jen sjezdy, dá se napojit na začátku sjezdů a skočit po  posledním skoku. Kdo by jel trail celý, skončí zpátky u pumtracku kde může jet znova okruh nebo zůstat na pumtracku a potrénovat si techniku.</p>
                                 <h3>Něco o trailu</h3>
                                 <ul class="list-unstyled">
                                     <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -257,7 +275,7 @@
 
 
         <div class="container">
-            <img src="https://via.placeholder.com/300x200?text=Recommendation+1+image" alt="" class="img-fluid w-100" />
+            <img src="../imgs/spoty/cihelnamapa.jpg" alt="" class="img-fluid w-100" />
         </div>
 
 
