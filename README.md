@@ -29,7 +29,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [x] vytvořený formulář (kontaktní, registrační)
 * [ ] sticky záhlaví stránky s menu
 * [x] zápatí stránky (např. https://mdbootstrap.com/docs/jquery/navigation/footer/#advanced)
-* [ ] modifikovaný styl Bootstrapu (https://bootstrap.build/themes, https://bootstrap.build/app , https://mdbootstrap.com/docs/jquery/getting-started/installation-guide/ )
+* [x] modifikovaný styl Bootstrapu (https://bootstrap.build/themes, https://bootstrap.build/app , https://mdbootstrap.com/docs/jquery/getting-started/installation-guide/ )
 
 ### Estetická kritéria
 * [ani jinak nejde] stránka je hezká
